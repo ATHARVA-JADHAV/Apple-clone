@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav{
+    font-family: poppins;
+    font-size: 12px;
+    height: 5vh;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0%;
+    
+}
+
+nav a{
+    text-decoration:none;
+    color: black;   
+}
+
+.saving{
+    margin-top: 4%;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.saving1{
+    padding-left: 20%;
+    margin-top: 2.5%;
+    padding-left: 0 0 3px;
+    text-align:center;
+    width: 60%;
+    line-height: 1.42;
+}
+.back-vid video{
+    width: 100%;
+
+}
+
+.full{
+    width: 100%;
+    height: 600vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.store{
+    width: 1100px;
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: 60px;
+    color: gray;
+    height: 50vh;
+}
+
+.sec1{
+    display: flex;
+    gap: 100px;
+    height: 50vh;
+}
+.help-sec{
+    width: 25%;
+    height: 50vh;
+    padding-left: 20%;
+    padding-top: 10% ;
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+
+}
+.products{
+    margin-left: 10%;
+    gap: 2.4%;   
+    width: 80%;
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product img{
+    height: 77px;
+    
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font:bold;
+    font-family: poppins;
+}
+.swiper {
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 90%;
+    height: 63vh;
+    border-radius: 20PX;
+    color: #271f1f;
+ 
+  }
+
+  .swiper-slide {
+
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display:block;
+    width: 30%;
+    height: 100%;
+    object-fit:contain;
+   
+  }
+
+  .swiper-1{
+    background-repeat: no-repeat;
+    background-image: url(Screenshot\ 2023-12-14\ 142326\ 1.png);
+}
+.swiper-2{
+    
+    object-fit: cover;
+    background-position: 1%;
+    background-image: url(Screenshot\ 2023-12-14\ 142738\ 2.png);
+}
+
+.swiper-3{
+    background-repeat: no-repeat;
+    background-image: url(/imgs/Screenshot\ 2024-01-14\ 011323.png);
+    background-size: 100%;
+}
+.latest{
+    width: 80%;
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: 35px;
+    color: gray;
+    height: 12vh;
+}
+.card-container h1{
+    color: #7f7b7b;
+    font-family: poppins;
+    font-weight:bold;
+    font-size: x-large;
+    margin-top: 6%;
+    margin-left:10%;
+}
+.cards{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.card1{
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 510px;
+    width: 350px;
+    background-image: url(/imgs/store-card-40-holiday-engraving-202311.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 510px;
+    transition: 0.7s ease-in-out;
+}
+.card1 h1{
+    padding-top: 17%;
+    padding-left: 5%;
+}
+
+.card2{
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffffff;
+    height: 470px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.7s ease-in-out;
+}
+.card2 img{
+    margin: 10px;
+}
+.card2 a{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.card2 p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: poppins;
+}
+
+.card2 p1{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.card3{
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffffff;
+    height: 470px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.7s ease-in-out;
+}
+
+.card3 img{
+    margin: 10px;
+}
+.card3 a{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.card3 p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: poppins;
+}
+
+.card3 p1{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.apple-events{
+    margin-top: 5%;
+    background-color: #000000;
+    padding: 10px;
+}
+.apple-events h1{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+    font-size: xx-large;
+}
+.events{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.events img{
+    height: 400px;
+}
+
+.last{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.last img{
+    height: 700px;
+}
+
+.last h1{
+    font-size: xx-large;
+    margin-top: -4%;
+    width: 600px;
+}
+.buttons{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.buttons button{
+    width: 120px;
+    height: 40px;
+    border-radius: 980px;
+    border: none;
+    background-color:rgba(0,0,0,.08);
+}
+
+.beeginfo{
+    width:70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    
+}
+
+.beeginfo p{
+    margin-bottom:12px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6e6e73;
+}
+.beeginfo a{
+    color: #000000;
+}
